@@ -82,12 +82,14 @@ Follow these steps to execute the project:
 ## **Results**
 The DBSCAN algorithm was applied to cluster customers based on **Annual Income** and **Spending Score**. After data preprocessing and scaling, the following clusters were identified:
 
+   ![DBSCAN Clustering Results](https://github.com/DnyaneshU/DBSCAN-Clustering-Project/blob/main/Results/Clustering%20Result.png)
+
 ### **Key Insights:**
 1. **Clusters Detected**: The DBSCAN algorithm identified clusters with varying densities. Outliers (noise points) were also identified, represented by the color black in the visualization.
 2. **Visualization**:  
    Below is a scatter plot of the results, showing **Annual Income (scaled)** vs. **Spending Score (scaled)**, where different colors represent distinct clusters:
 
-   ![DBSCAN Clustering Results](results/dbscan_results.png)
+
 
 3. **Business Interpretation**:
    - Customers with **high income** and **high spending scores** can be targeted for premium products or loyalty programs.  
